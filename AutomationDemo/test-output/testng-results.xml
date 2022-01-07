@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-07T11:16:36 IST" name="Default suite" finished-at="2022-01-07T11:16:39 IST" duration-ms="2251">
+    <groups>
+    </groups>
+    <test started-at="2022-01-07T11:16:36 IST" name="Default test" finished-at="2022-01-07T11:16:39 IST" duration-ms="2251">
+      <class name="automationpractice.fullpage">
+        <test-method is-config="true" signature="Opensite()[pri:0, instance:automationpractice.fullpage@b9b00e0]" started-at="2022-01-07T11:16:06 IST" name="Opensite" finished-at="2022-01-07T11:16:36 IST" duration-ms="30717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Opensite -->
+        <test-method signature="checkbox()[pri:0, instance:automationpractice.fullpage@b9b00e0]" started-at="2022-01-07T11:16:36 IST" name="checkbox" finished-at="2022-01-07T11:16:37 IST" duration-ms="498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbox -->
+        <test-method signature="dropdown()[pri:0, instance:automationpractice.fullpage@b9b00e0]" started-at="2022-01-07T11:16:37 IST" name="dropdown" finished-at="2022-01-07T11:16:37 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdown -->
+        <test-method signature="enterdetails()[pri:0, instance:automationpractice.fullpage@b9b00e0]" started-at="2022-01-07T11:16:37 IST" name="enterdetails" finished-at="2022-01-07T11:16:38 IST" duration-ms="866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterdetails -->
+        <test-method signature="inputfile()[pri:0, instance:automationpractice.fullpage@b9b00e0]" started-at="2022-01-07T11:16:38 IST" name="inputfile" finished-at="2022-01-07T11:16:38 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputfile -->
+        <test-method signature="yearandauto()[pri:0, instance:automationpractice.fullpage@b9b00e0]" started-at="2022-01-07T11:16:38 IST" name="yearandauto" finished-at="2022-01-07T11:16:39 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yearandauto -->
+        <test-method is-config="true" signature="submit()[pri:0, instance:automationpractice.fullpage@b9b00e0]" started-at="2022-01-07T11:16:39 IST" name="submit" finished-at="2022-01-07T11:16:39 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submit -->
+        <test-method is-config="true" signature="close()[pri:0, instance:automationpractice.fullpage@b9b00e0]" started-at="2022-01-07T11:16:39 IST" name="close" finished-at="2022-01-07T11:16:40 IST" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- automationpractice.fullpage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Azurebasic">
+  <test thread-count="5" name="Basicfillup">
+    <classes>
+      <class name="automationpractice.azurewebsite"/>
+      <class name="automationpractice.checkbox"></class>
+      <class name="automationpractice.dropdown"></class>
+      <class name="automationpractice.yearofexandautotools"></class>
+      <class name="automationpractice.inputfile"></class>
+    </classes>
+  </test> <!-- Basicfillup -->
+</suite> <!-- Azurebasic -->
