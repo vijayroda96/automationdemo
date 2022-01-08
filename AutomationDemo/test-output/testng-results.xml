@@ -1,45 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-07T11:16:36 IST" name="Default suite" finished-at="2022-01-07T11:16:39 IST" duration-ms="2251">
+  <suite started-at="2022-01-07T18:48:14 IST" name="Default suite" finished-at="2022-01-07T18:48:41 IST" duration-ms="27002">
     <groups>
     </groups>
-    <test started-at="2022-01-07T11:16:36 IST" name="Default test" finished-at="2022-01-07T11:16:39 IST" duration-ms="2251">
-      <class name="automationpractice.fullpage">
-        <test-method is-config="true" signature="Opensite()[pri:0, instance:automationpractice.fullpage@b9b00e0]" started-at="2022-01-07T11:16:06 IST" name="Opensite" finished-at="2022-01-07T11:16:36 IST" duration-ms="30717" status="PASS">
+    <test started-at="2022-01-07T18:48:14 IST" name="Default test" finished-at="2022-01-07T18:48:41 IST" duration-ms="27002">
+      <class name="LMS.loginTest">
+        <test-method is-config="true" signature="openurl()[pri:0, instance:LMS.loginTest@1151e434]" started-at="2022-01-07T18:48:14 IST" name="openurl" finished-at="2022-01-07T18:48:33 IST" duration-ms="18442" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Opensite -->
-        <test-method signature="checkbox()[pri:0, instance:automationpractice.fullpage@b9b00e0]" started-at="2022-01-07T11:16:36 IST" name="checkbox" finished-at="2022-01-07T11:16:37 IST" duration-ms="498" status="PASS">
+        </test-method> <!-- openurl -->
+        <test-method signature="enteruser()[pri:1, instance:LMS.loginTest@1151e434]" started-at="2022-01-07T18:48:33 IST" name="enteruser" finished-at="2022-01-07T18:48:33 IST" duration-ms="280" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkbox -->
-        <test-method signature="dropdown()[pri:0, instance:automationpractice.fullpage@b9b00e0]" started-at="2022-01-07T11:16:37 IST" name="dropdown" finished-at="2022-01-07T11:16:37 IST" duration-ms="213" status="PASS">
+        </test-method> <!-- enteruser -->
+        <test-method signature="enterpass()[pri:2, instance:LMS.loginTest@1151e434]" started-at="2022-01-07T18:48:33 IST" name="enterpass" finished-at="2022-01-07T18:48:33 IST" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dropdown -->
-        <test-method signature="enterdetails()[pri:0, instance:automationpractice.fullpage@b9b00e0]" started-at="2022-01-07T11:16:37 IST" name="enterdetails" finished-at="2022-01-07T11:16:38 IST" duration-ms="866" status="PASS">
+        </test-method> <!-- enterpass -->
+        <test-method signature="clickonlogin()[pri:3, instance:LMS.loginTest@1151e434]" started-at="2022-01-07T18:48:33 IST" name="clickonlogin" finished-at="2022-01-07T18:48:37 IST" duration-ms="3757" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- enterdetails -->
-        <test-method signature="inputfile()[pri:0, instance:automationpractice.fullpage@b9b00e0]" started-at="2022-01-07T11:16:38 IST" name="inputfile" finished-at="2022-01-07T11:16:38 IST" duration-ms="200" status="PASS">
+        </test-method> <!-- clickonlogin -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:LMS.loginTest@1151e434]" started-at="2022-01-07T18:48:37 IST" name="closedriver" finished-at="2022-01-07T18:48:41 IST" duration-ms="4233" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-EO0JQ99', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [70c95ad6936c06a6d83bc581dff94e6a, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\viju\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49507}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49507/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 70c95ad6936c06a6d83bc581dff94e6a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-EO0JQ99', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [70c95ad6936c06a6d83bc581dff94e6a, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\viju\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49507}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49507/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 70c95ad6936c06a6d83bc581dff94e6a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:444)
+at LMS.loginTest.closedriver(loginTest.java:47)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.afterRun(TestRunner.java:877)
+at org.testng.TestRunner.run(TestRunner.java:599)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- inputfile -->
-        <test-method signature="yearandauto()[pri:0, instance:automationpractice.fullpage@b9b00e0]" started-at="2022-01-07T11:16:38 IST" name="yearandauto" finished-at="2022-01-07T11:16:39 IST" duration-ms="305" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- yearandauto -->
-        <test-method is-config="true" signature="submit()[pri:0, instance:automationpractice.fullpage@b9b00e0]" started-at="2022-01-07T11:16:39 IST" name="submit" finished-at="2022-01-07T11:16:39 IST" duration-ms="87" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- submit -->
-        <test-method is-config="true" signature="close()[pri:0, instance:automationpractice.fullpage@b9b00e0]" started-at="2022-01-07T11:16:39 IST" name="close" finished-at="2022-01-07T11:16:40 IST" duration-ms="462" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- automationpractice.fullpage -->
+        </test-method> <!-- closedriver -->
+      </class> <!-- LMS.loginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
